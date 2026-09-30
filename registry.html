@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- CRITICAL MOBILE SCALING LINE -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The State Registry - Nizhnepartovsk Duchy</title>
 </head>
-<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #e0e0e0; margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center;">
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #e0e0e0; margin: 0; padding: 10px; display: flex; flex-direction: column; align-items: center;">
 
-    <!-- MAIN WRAPPER -->
-    <div style="max-width: 1050px; width: 100%;">
+    <!-- MAIN WRAPPER (95% fluid container width) -->
+    <div style="max-width: 1050px; width: 95%; box-sizing: border-box; margin-top: 10px;">
 
         <!-- TOP BANNER -->
-        <div style="background: linear-gradient(to bottom, #41b343 33.3%, #7732aa 33.3%, #7732aa 66.6%, #41b343 66.6%); padding: 50px 20px; text-align: center; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
-            <h1 style="color: #f7c702; font-family: 'Georgia', 'Garamond', 'Times New Roman', serif; font-size: 2.3em; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.6); font-weight: bold; letter-spacing: 0.5px; white-space: nowrap;">
+        <div style="background: linear-gradient(to bottom, #41b343 33.3%, #7732aa 33.3%, #7732aa 66.6%, #41b343 66.6%); padding: 40px 15px; text-align: center; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); box-sizing: border-box;">
+            <h1 style="color: #f7c702; font-family: 'Georgia', 'Garamond', 'Times New Roman', serif; font-size: calc(1.35em + 1vw); margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.6); font-weight: bold; letter-spacing: 0.5px; word-wrap: break-word;">
                 The State Registry of Nizhnepartovsk
             </h1>
         </div>
@@ -25,62 +26,56 @@
         </div>
 
         <!-- SECTION I: GOVERNMENT HIERARCHY TREE -->
-        <div style="background-color: #7732aa; padding: 40px 30px; border-radius: 8px; box-shadow: 0 6px 15px rgba(0,0,0,0.2); margin-bottom: 40px;">
+        <div style="background-color: #7732aa; padding: 30px 20px; border-radius: 8px; box-shadow: 0 6px 15px rgba(0,0,0,0.2); margin-bottom: 40px; box-sizing: border-box;">
             
-            <h2 style="color: #f7c702; font-family: 'Georgia', 'Garamond', serif; font-size: 2em; text-align: center; margin-top: 0; margin-bottom: 35px; border-bottom: 2px solid rgba(247, 199, 2, 0.3); padding-bottom: 10px;">
+            <h2 style="color: #f7c702; font-family: 'Georgia', 'Garamond', serif; font-size: calc(1.3em + 0.6vw); text-align: center; margin-top: 0; margin-bottom: 35px; border-bottom: 2px solid rgba(247, 199, 2, 0.3); padding-bottom: 10px;">
                 Constitutional Flow of Authority
             </h2>
 
             <!-- FLOWCHART CONTAINER -->
-            <div style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 15px; width: 100%;">
                 
                 <!-- THE DUKE NODE -->
-                <div style="background-color: #f7c702; color: #7732aa; font-weight: bold; padding: 15px 30px; border-radius: 6px; font-size: 1.3em; width: 250px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
+                <div style="background-color: #f7c702; color: #7732aa; font-weight: bold; padding: 15px; border-radius: 6px; font-size: 1.2em; width: 100%; max-width: 280px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.15); box-sizing: border-box;">
                     👑 The Duke
                 </div>
                 
                 <!-- ARROW -->
-                <div style="color: #f7c702; font-size: 1.5em; font-weight: bold;">▼</div>
+                <div style="color: #f7c702; font-size: 1.3em; font-weight: bold;">▼</div>
 
                 <!-- THE CHANCELLOR NODE -->
-                <div style="background-color: #f7c702; color: #7732aa; font-weight: bold; padding: 15px 30px; border-radius: 6px; font-size: 1.2em; width: 250px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
+                <div style="background-color: #f7c702; color: #7732aa; font-weight: bold; padding: 15px; border-radius: 6px; font-size: 1.15em; width: 100%; max-width: 280px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.15); box-sizing: border-box;">
                     📜 The Chancellor
                 </div>
 
                 <!-- ARROW -->
-                <div style="color: #f7c702; font-size: 1.5em; font-weight: bold;">▼</div>
+                <div style="color: #f7c702; font-size: 1.3em; font-weight: bold;">▼</div>
 
                 <!-- THE STATE COUNCIL BRANCHING POINT -->
-                <div style="background-color: #f7c702; color: #7732aa; padding: 12px 25px; border-radius: 6px; font-size: 1.1em; width: 320px; text-align: center; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
+                <div style="background-color: #f7c702; color: #7732aa; padding: 12px; border-radius: 6px; font-size: 1.05em; width: 100%; max-width: 320px; text-align: center; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.15); box-sizing: border-box;">
                     🏛️ The State Council (High Executive)
                 </div>
 
-                <!-- SPLIT ARROWS -->
-                <div style="display: flex; justify-content: space-between; width: 450px; padding: 0 60px; color: #f7c702; font-size: 1.5em; font-weight: bold; margin-top: -5px; margin-bottom: -5px;">
-                    <span>▼</span>
-                    <span>▼</span>
-                </div>
+                <!-- ARROW -->
+                <div style="color: #f7c702; font-size: 1.3em; font-weight: bold;">▼</div>
 
-                <!-- DUAL SIDE-BY-SIDE COLUMNS -->
-                <div style="display: flex; justify-content: space-between; width: 600px; gap: 40px; margin-bottom: 15px;">
+                <!-- RESPONSIVE DUAL COLUMNS (Uses flex-wrap to seamlessly stack vertically on small devices) -->
+                <div style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%; gap: 15px;">
                     <!-- Appointed side -->
-                    <div style="background-color: #f7c702; color: #7732aa; font-weight: bold; padding: 15px 20px; border-radius: 6px; flex: 1; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
+                    <div style="background-color: #f7c702; color: #7732aa; font-weight: bold; padding: 15px; border-radius: 6px; width: 100%; max-width: 280px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.15); box-sizing: border-box;">
                         💼 State Councilors<br><span style="font-size: 0.8em; font-weight: normal; opacity: 0.85;">(Appointed Authority)</span>
                     </div>
                     <!-- Elected side -->
-                    <div style="background-color: #f7c702; color: #7732aa; font-weight: bold; padding: 15px 20px; border-radius: 6px; flex: 1; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
+                    <div style="background-color: #f7c702; color: #7732aa; font-weight: bold; padding: 15px; border-radius: 6px; width: 100%; max-width: 280px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.15); box-sizing: border-box;">
                         🏛️ Deputies of the Realm<br><span style="font-size: 0.8em; font-weight: normal; opacity: 0.85;">(Elected Public Voice)</span>
                     </div>
                 </div>
 
-                <!-- RE-CONVERGE ARROWS -->
-                <div style="display: flex; justify-content: space-between; width: 600px; padding: 0 130px; color: #f7c702; font-size: 1.5em; font-weight: bold; margin-top: -10px;">
-                    <span>▼</span>
-                    <span>▼</span>
-                </div>
+                <!-- ARROW -->
+                <div style="color: #f7c702; font-size: 1.3em; font-weight: bold;">▼</div>
 
                 <!-- CITIZENS BASE -->
-                <div style="background-color: #41b343; color: #ffffff; padding: 15px 40px; border-radius: 6px; font-size: 1.1em; width: 570px; text-align: center; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
+                <div style="background-color: #41b343; color: #ffffff; padding: 15px; border-radius: 6px; font-size: 1.05em; width: 100%; max-width: 220px; text-align: center; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.15); box-sizing: border-box;">
                     🛂 Citizens Base
                 </div>
 
@@ -88,101 +83,104 @@
         </div>
 
         <!-- SECTION II: DUCAL ROLE CATALOGUE -->
-        <div style="background-color: #7732aa; padding: 40px 30px; border-radius: 8px; box-shadow: 0 6px 15px rgba(0,0,0,0.2); margin-bottom: 40px; text-align: left; color: #f7c702;">
+        <div style="background-color: #7732aa; padding: 30px 20px; border-radius: 8px; box-shadow: 0 6px 15px rgba(0,0,0,0.2); margin-bottom: 40px; text-align: left; color: #f7c702; box-sizing: border-box;">
             
-            <h2 style="font-family: 'Georgia', 'Garamond', serif; font-size: 2em; text-align: center; margin-top: 0; margin-bottom: 30px; border-bottom: 2px solid rgba(247, 199, 2, 0.3); padding-bottom: 10px;">
+            <h2 style="font-family: 'Georgia', 'Garamond', serif; font-size: calc(1.3em + 0.6vw); text-align: center; margin-top: 0; margin-bottom: 30px; border-bottom: 2px solid rgba(247, 199, 2, 0.3); padding-bottom: 10px;">
                 State Office Specifications
             </h2>
 
             <!-- ROLE BLOCK: DUKE -->
-            <div style="background-color: rgba(255,255,255,0.06); padding: 20px; border-radius: 6px; margin-bottom: 20px; border-left: 4px solid #f7c702;">
-                <h3 style="margin-top: 0; font-size: 1.4em; font-family: 'Georgia', serif;">👑 The Reigning Duke</h3>
-                <p style="color: #ffffff; margin-bottom: 8px; line-height: 1.5;"><strong>How Earned:</strong> Supreme hereditary baseline; founder of the Sovereign Throne.</p>
-                <p style="color: #ffffff; margin-bottom: 8px; line-height: 1.5;"><strong>Rights & Privileges:</strong> Absolute executive and legislative mandate; holds immediate un-overrideable veto over all state bodies; total legal immunity from all earthly jurisdiction.</p>
-                <p style="color: #ffffff; margin-bottom: 0; line-height: 1.5;"><strong>Duties & Responsibilities:</strong> Preservation of state integrity, maintenance of eternal peace.</p>
+            <div style="background-color: rgba(255,255,255,0.06); padding: 15px; border-radius: 6px; margin-bottom: 20px; border-left: 4px solid #f7c702; box-sizing: border-box;">
+                <h3 style="margin-top: 0; font-size: 1.3em; font-family: 'Georgia', serif;">👑 The Reigning Duke</h3>
+                <p style="color: #ffffff; margin-bottom: 8px; line-height: 1.5; font-size: 0.95em;"><strong>How Earned:</strong> Supreme hereditary baseline; founder of the Sovereign Throne.</p>
+                <p style="color: #ffffff; margin-bottom: 8px; line-height: 1.5; font-size: 0.95em;"><strong>Rights & Privileges:</strong> Absolute executive and legislative mandate; holds immediate un-overrideable veto over all state bodies; total legal immunity from all earthly jurisdiction.</p>
+                <p style="color: #ffffff; margin-bottom: 0; line-height: 1.5; font-size: 0.95em;"><strong>Duties & Responsibilities:</strong> Preservation of state integrity, maintenance of eternal peace.</p>
             </div>
 
             <!-- ROLE BLOCK: CHANCELLOR -->
-            <div style="background-color: rgba(255,255,255,0.06); padding: 20px; border-radius: 6px; margin-bottom: 20px; border-left: 4px solid #f7c702;">
-                <h3 style="margin-top: 0; font-size: 1.4em; font-family: 'Georgia', serif;">📜 The Chancellor</h3>
-                <p style="color: #ffffff; margin-bottom: 8px; line-height: 1.5;"><strong>How Earned:</strong> Direct executive assignment and appointment by the Duke.</p>
-                <p style="color: #ffffff; margin-bottom: 8px; line-height: 1.5;"><strong>Rights & Privileges:</strong> Directs and acts as prime administrator over the entire State Council; holds authority to propose supreme laws and execute citizenship application actions.</p>
-                <p style="color: #ffffff; margin-bottom: 0; line-height: 1.5;"><strong>Duties & Responsibilities:</strong> Reporting status metrics directly to the Crown, scheduling state sessions, and ensuring operational enforcement of the 16 constitutional articles.</p>
+            <div style="background-color: rgba(255,255,255,0.06); padding: 15px; border-radius: 6px; margin-bottom: 20px; border-left: 4px solid #f7c702; box-sizing: border-box;">
+                <h3 style="margin-top: 0; font-size: 1.3em; font-family: 'Georgia', serif;">📜 The Chancellor</h3>
+                <p style="color: #ffffff; margin-bottom: 8px; line-height: 1.5; font-size: 0.95em;"><strong>How Earned:</strong> Direct executive assignment and appointment by the Duke.</p>
+                <p style="color: #ffffff; margin-bottom: 8px; line-height: 1.5; font-size: 0.95em;"><strong>Rights & Privileges:</strong> Directs and acts as prime administrator over the entire State Council; holds authority to propose supreme laws and execute citizenship application actions.</p>
+                <p style="color: #ffffff; margin-bottom: 0; line-height: 1.5; font-size: 0.95em;"><strong>Duties & Responsibilities:</strong> Reporting status metrics directly to the Crown, scheduling state sessions, and ensuring operational enforcement of the 16 constitutional articles.</p>
             </div>
 
             <!-- ROLE BLOCK: COUNCILORS -->
-            <div style="background-color: rgba(255,255,255,0.06); padding: 20px; border-radius: 6px; margin-bottom: 20px; border-left: 4px solid #f7c702;">
-                <h3 style="margin-top: 0; font-size: 1.4em; font-family: 'Georgia', serif;">💼 State Councilors</h3>
-                <p style="color: #ffffff; margin-bottom: 8px; line-height: 1.5;"><strong>How Earned:</strong> Designated by the Duke or explicitly selected by the Chancellor.</p>
-                <p style="color: #ffffff; margin-bottom: 8px; line-height: 1.5;"><strong>Rights & Privileges:</strong> Head specific ministries (Media, Treasury, or Interior); hold authoritative control over state projects and direct supervision over the actions of elected Deputies.</p>
-                <p style="color: #ffffff; margin-bottom: 0; line-height: 1.5;"><strong>Duties & Responsibilities:</strong> Reviewing raw citizen petitions under the Chancellor's control, maintaining database arrays, and managing specialized spaces like the YouTube stream.</p>
+            <div style="background-color: rgba(255,255,255,0.06); padding: 15px; border-radius: 6px; margin-bottom: 20px; border-left: 4px solid #f7c702; box-sizing: border-box;">
+                <h3 style="margin-top: 0; font-size: 1.3em; font-family: 'Georgia', serif;">💼 State Councilors</h3>
+                <p style="color: #ffffff; margin-bottom: 8px; line-height: 1.5; font-size: 0.95em;"><strong>How Earned:</strong> Designated by the Duke or explicitly selected by the Chancellor.</p>
+                <p style="color: #ffffff; margin-bottom: 8px; line-height: 1.5; font-size: 0.95em;"><strong>Rights & Privileges:</strong> Head specific ministries (Media, Treasury, or Interior); hold authoritative control over state projects and direct supervision over the actions of elected Deputies.</p>
+                <p style="color: #ffffff; margin-bottom: 0; line-height: 1.5; font-size: 0.95em;"><strong>Duties & Responsibilities:</strong> Reviewing raw citizen petitions under the Chancellor's control, maintaining database arrays, and managing specialized spaces like the social media of Nizhnepartovsk.</p>
             </div>
 
             <!-- ROLE BLOCK: DEPUTIES -->
-            <div style="background-color: rgba(255,255,255,0.06); padding: 20px; border-radius: 6px; margin-bottom: 0; border-left: 4px solid #41b343;">
-                <h3 style="margin-top: 0; font-size: 1.4em; font-family: 'Georgia', serif;">🏛️ Deputies of the Realm</h3>
-                <p style="color: #ffffff; margin-bottom: 8px; line-height: 1.5;"><strong>How Earned:</strong> Elected directly through public franchise by the active citizen body.</p>
-                <p style="color: #ffffff; margin-bottom: 8px; line-height: 1.5;"><strong>Rights & Privileges:</strong> Voice public opinions and draft basic legislative proposals for consideration by the high chamber.</p>
-                <p style="color: #ffffff; margin-bottom: 0; line-height: 1.5;"><strong>Duties & Responsibilities:</strong> as community liaisons, performing data filtration tasks for applications, and operating under the strict control of the assigned Councilors.</p>
+            <div style="background-color: rgba(255,255,255,0.06); padding: 15px; border-radius: 6px; border-left: 4px solid #41b343; box-sizing: border-box;">
+                <h3 style="margin-top: 0; font-size: 1.3em; font-family: 'Georgia', serif;">🏛️ Deputies of the Realm</h3>
+                <p style="color: #ffffff; margin-bottom: 8px; line-height: 1.5; font-size: 0.95em;"><strong>How Earned:</strong> Elected directly through public franchise by the active citizen body.</p>
+                <p style="color: #ffffff; margin-bottom: 8px; line-height: 1.5; font-size: 0.95em;"><strong>Rights & Privileges:</strong> Voice public opinions and draft basic legislative proposals for consideration by the high chamber.</p>
+                <p style="color: #ffffff; margin-bottom: 0; line-height: 1.5; font-size: 0.95em;"><strong>Duties & Responsibilities:</strong> Acting as community liaisons, performing data filtration tasks for applications, and operating under the strict control of the assigned Councilors.</p>
             </div>
-                        <br><br>
-            <h2 style="font-family: 'Georgia', 'Garamond', serif; font-size: 2em; text-align: center; margin-top: 0; margin-bottom: 30px; border-bottom: 2px solid rgba(247, 199, 2, 0.3); padding-bottom: 10px;">
+
+            <br><br>
+            <h2 style="font-family: 'Georgia', 'Garamond', serif; font-size: calc(1.3em + 0.6vw); text-align: center; margin-top: 0; margin-bottom: 30px; border-bottom: 2px solid rgba(247, 199, 2, 0.3); padding-bottom: 10px;">
                 The Active Government Ledger
             </h2>
 
-            <table style="width: 100%; border-collapse: collapse; font-size: 1.1em; text-align: left;">
-                <thead>
-                    <tr style="border-bottom: 2px solid #f7c702;">
-                        <th style="padding: 12px 15px; color: #ffd700;">Office Rank</th>
-                        <th style="padding: 12px 15px; color: #ffd700;">State Assignment</th>
-                        <th style="padding: 12px 15px; color: #ffd700;">Assigned Personnel Name</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr style="border-bottom: 1px solid rgba(247,199,2,0.15);">
-                        <td style="padding: 15px; font-weight: bold; color: #ffffff;">👑 Sovereign</td>
-                        <td style="padding: 15px;">The Reigning Duke</td>
-                        <td style="padding: 15px; font-weight: bold; color: #ffffff;">Duke JustA1ex</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid rgba(247,199,2,0.15);">
-                        <td style="padding: 15px; font-weight: bold; color: #ffffff;">📜 Prime Executive</td>
-                        <td style="padding: 15px;">The Chancellor</td>
-                        <td style="padding: 15px; font-weight: bold; color: #ffffff;">Jurgen</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid rgba(247,199,2,0.15);">
-                        <td style="padding: 15px; font-weight: bold; color: #ffffff;">💼 High Council</td>
-                        <td style="padding: 15px;">Councilor of Media & Culture</td>
-                        <td style="padding: 15px; font-style: italic; color: rgba(255,255,255,0.6);">[Vacant / To Be Appointed]</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid rgba(247,199,2,0.15);">
-                        <td style="padding: 15px; font-weight: bold; color: #ffffff;">💼 High Council</td>
-                        <td style="padding: 15px;">Councilor of Treasury & Records</td>
-                        <td style="padding: 15px; font-style: italic; color: rgba(255,255,255,0.6);">[Vacant / To Be Appointed]</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid rgba(247,199,2,0.15);">
-                        <td style="padding: 15px; font-weight: bold; color: #ffffff;">💼 High Council</td>
-                        <td style="padding: 15px;">Councilor of the Interior</td>
-                        <td style="padding: 15px; font-weight: bold; color: #ffffff;">lucyn</td>
-                    </tr>
-                    <tr>
-                        <td style="padding: 15px; font-weight: bold; color: #ffffff;">🏛️ Lower Chamber</td>
-                        <td style="padding: 15px;">Elected Public Deputies</td>
-                        <td style="padding: 15px; font-style: italic; color: rgba(255,255,255,0.6);">[Awaiting Legislative Elections]</td>
-                    </tr>
-                </tbody>
-            </table>
+            <!-- RESPONSIVE TABLE WRAPPER -->
+            <div style="width: 100%; overflow-x: auto;">
+                <table style="width: 100%; min-width: 550px; border-collapse: collapse; font-size: 1.05em; text-align: left;">
+                    <thead>
+                        <tr style="border-bottom: 2px solid #f7c702;">
+                            <th style="padding: 12px 10px; color: #ffd700;">Office Rank</th>
+                            <th style="padding: 12px 10px; color: #ffd700;">State Assignment</th>
+                            <th style="padding: 12px 10px; color: #ffd700;">Assigned Personnel Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom: 1px solid rgba(247,199,2,0.15); font-size: 0.95em;">
+                            <td style="padding: 12px 10px; font-weight: bold; color: #ffffff;">👑 Sovereign</td>
+                            <td style="padding: 12px 10px;">The Reigning Duke</td>
+                            <td style="padding: 12px 10px; font-weight: bold; color: #ffffff;">Duke JustA1ex</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(247,199,2,0.15); font-size: 0.95em;">
+                            <td style="padding: 12px 10px; font-weight: bold; color: #ffffff;">📜 Prime Executive</td>
+                            <td style="padding: 12px 10px;">The Chancellor</td>
+                            <td style="padding: 12px 10px; font-weight: bold; color: #ffffff;">Jurgen</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(247,199,2,0.15); font-size: 0.95em;">
+                            <td style="padding: 12px 10px; font-weight: bold; color: #ffffff;">💼 High Council</td>
+                            <td style="padding: 12px 10px;">Councilor of Media & Culture</td>
+                            <td style="padding: 12px 10px; font-style: italic; color: rgba(255,255,255,0.6);">[Vacant / To Be Appointed]</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(247,199,2,0.15); font-size: 0.95em;">
+                            <td style="padding: 12px 10px; font-weight: bold; color: #ffffff;">💼 High Council</td>
+                            <td style="padding: 12px 10px;">Councilor of Treasury & Records</td>
+                            <td style="padding: 12px 10px; font-style: italic; color: rgba(255,255,255,0.6);">[Vacant / To Be Appointed]</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(247,199,2,0.15); font-size: 0.95em;">
+                            <td style="padding: 12px 10px; font-weight: bold; color: #ffffff;">💼 High Council</td>
+                            <td style="padding: 12px 10px;">Councilor of the Interior</td>
+                            <td style="padding: 12px 10px; font-weight: bold; color: #ffffff;">lucyn</td>
+                        </tr>
+                        <tr style="font-size: 0.95em;">
+                            <td style="padding: 12px 10px; font-weight: bold; color: #ffffff;">🏛️ Lower Chamber</td>
+                            <td style="padding: 12px 10px;">Elected Public Deputies</td>
+                            <td style="padding: 12px 10px; font-style: italic; color: rgba(255,255,255,0.6);">[Awaiting Legislative Elections]</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div> <!-- Closes the Catalog div -->
 
         <!-- APPLICATION SECTION -->
-        <div style="background-color: #7732aa; padding: 35px; border-radius: 8px; box-shadow: 0 6px 15px rgba(0,0,0,0.2); text-align: center; margin-bottom: 30px;">
-            <h2 style="color: #f7c702; font-family: 'Georgia', 'Garamond', serif; font-size: 1.8em; margin-top: 0; margin-bottom: 15px;">
-                Apply to Elect as a Deputy
+        <div style="background-color: #7732aa; padding: 35px 20px; border-radius: 8px; box-shadow: 0 6px 15px rgba(0,0,0,0.2); text-align: center; margin-bottom: 30px; box-sizing: border-box;">
+            <h2 style="color: #f7c702; font-family: 'Georgia', 'Garamond', serif; font-size: calc(1.2em + 0.4vw); margin-top: 0; margin-bottom: 15px;">
+                Apply for Legislative Office
             </h2>
-            <p style="color: #ffffff; font-size: 1.1em; line-height: 1.5; max-width: 750px; margin: 0 auto 25px auto; opacity: 0.9;">
+            <p style="color: #ffffff; font-size: 1.05em; line-height: 1.5; max-width: 750px; margin: 0 auto 25px auto; opacity: 0.9;">
                 Ready to represent your fellow citizens as a Deputy? Active citizens in good constitutional standing may submit their candidacy applications for upcoming Deputy of the Realm cycles below.
             </p>
-            <!-- target="_blank" -->
-            <a href="#" style="background-color: #f7c702; color: #7732aa; font-weight: bold; padding: 16px 45px; border-radius: 6px; text-decoration: none; font-size: 1.2em; display: inline-block; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+            <a href="#" style="background-color: #a894c2; color: #7732aa; font-weight: bold; padding: 16px 30px; border-radius: 6px; text-decoration: none; font-size: 1.1em; display: inline-block; box-shadow: 0 4px 10px rgba(0,0,0,0.1); cursor: not-allowed; opacity: 0.7; max-width: 100%; box-sizing: border-box;">
                 🗳️ Submit Deputy Candidacy Petition (WIP)
             </a>
         </div>
