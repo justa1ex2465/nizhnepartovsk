@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- CRITICAL MOBILE SCALING LINE -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>National Symbols - Nizhnepartovsk Duchy</title>
 </head>
-<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #e0e0e0; margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center;">
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #e0e0e0; margin: 0; padding: 10px; display: flex; flex-direction: column; align-items: center;">
 
-    <!-- MAIN WRAPPER -->
-    <div style="max-width: 1050px; width: 100%;">
+    <!-- MAIN WRAPPER (95% fluid width for phone screen boundaries) -->
+    <div style="max-width: 1050px; width: 95%; box-sizing: border-box; margin-top: 10px;">
 
         <!-- TOP BANNER -->
-        <div style="background: linear-gradient(to bottom, #41b343 33.3%, #7732aa 33.3%, #7732aa 66.6%, #41b343 66.6%); padding: 50px 20px; text-align: center; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
-            <h1 style="color: #f7c702; font-family: 'Georgia', 'Garamond', 'Times New Roman', serif; font-size: 2.3em; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.6); font-weight: bold; letter-spacing: 0.5px; white-space: nowrap;">
+        <div style="background: linear-gradient(to bottom, #41b343 33.3%, #7732aa 33.3%, #7732aa 66.6%, #41b343 66.6%); padding: 40px 15px; text-align: center; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); box-sizing: border-box;">
+            <h1 style="color: #f7c702; font-family: 'Georgia', 'Garamond', 'Times New Roman', serif; font-size: calc(1.35em + 1vw); margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.6); font-weight: bold; letter-spacing: 0.5px; word-wrap: break-word;">
                 National Symbols of Nizhnepartovsk
             </h1>
         </div>
@@ -25,50 +26,54 @@
         </div>
 
         <!-- INTRO CARD -->
-        <div style="background-color: #7732aa; padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); text-align: center; margin-bottom: 40px;">
-            <p style="color: #f7c702; font-family: 'Georgia', 'Garamond', serif; font-size: 1.35em; line-height: 1.5; margin: 0;">
+        <div style="background-color: #7732aa; padding: 30px 20px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); text-align: center; margin-bottom: 40px; box-sizing: border-box;">
+            <p style="color: #f7c702; font-family: 'Georgia', 'Garamond', serif; font-size: calc(1.05em + 0.2vw); line-height: 1.5; margin: 0;">
                 Nizhnepartovsk has 3 national symbols: the flag, coat of arms and the anthem. They are listed below.
             </p>
         </div>
 
         <!-- SECTION: THE FLAG -->
-        <div style="text-align: center; margin-bottom: 40px;">
-            <h2 style="color: #7732aa; font-family: 'Georgia', 'Garamond', serif; font-size: 2em; margin-bottom: 20px;">The Flag</h2>
-            <img src="flag.png" alt="National Flag of Nizhnepartovsk" style="max-width: 600px; width: 100%; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); margin-bottom: 20px;">
-            <div style="background-color: #7732aa; padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); max-width: 850px; margin: 0 auto;">
-                <p style="color: #f7c702; font-family: 'Georgia', 'Garamond', serif; font-size: 1.25em; line-height: 1.6; margin: 0;">
+        <div style="text-align: center; margin-bottom: 40px; width: 100%;">
+            <h2 style="color: #7732aa; font-family: 'Georgia', 'Garamond', serif; font-size: calc(1.3em + 0.5vw); margin-bottom: 20px;">The Flag</h2>
+            
+            <!-- Fluid responsive image constraint -->
+            <img src="flag.png" alt="National Flag of Nizhnepartovsk" style="max-width: 600px; width: 100%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); margin-bottom: 20px; box-sizing: border-box;">
+            
+            <div style="background-color: #7732aa; padding: 30px 20px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); max-width: 850px; margin: 0 auto; box-sizing: border-box;">
+                <p style="color: #f7c702; font-family: 'Georgia', 'Garamond', serif; font-size: calc(1em + 0.15vw); line-height: 1.6; margin: 0; text-align: left;">
                     The flag features 3 stripes (green, purple and green) and the coat of arms. The green on the flag symbolizes the peace and prosperity whereas purple is a symbol of royalty and nobility. The description of the coat of arms is shown below.
                 </p>
             </div>
         </div>
 
         <!-- SECTION: THE COAT OF ARMS -->
-        <div style="text-align: center; margin-bottom: 40px;">
-            <h2 style="color: #7732aa; font-family: 'Georgia', 'Garamond', serif; font-size: 2em; margin-bottom: 20px;">The Coat of Arms</h2>
-            <img src="coat-of-arms.png" alt="Coat of Arms of Nizhnepartovsk" style="max-width: 500px; width: 100%; margin-bottom: 20px;">
-            <div style="background-color: #7732aa; padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); max-width: 850px; margin: 0 auto;">
-                <p style="color: #f7c702; font-family: 'Georgia', 'Garamond', serif; font-size: 1.25em; line-height: 1.6; margin: 0;">
+        <div style="text-align: center; margin-bottom: 40px; width: 100%;">
+            <h2 style="color: #7732aa; font-family: 'Georgia', 'Garamond', serif; font-size: calc(1.3em + 0.5vw); margin-bottom: 20px;">The Coat of Arms</h2>
+            
+            <!-- Fluid responsive image constraint -->
+            <img src="coat-of-arms.png" alt="Coat of Arms of Nizhnepartovsk" style="max-width: 500px; width: 85%; height: auto; margin-bottom: 20px; box-sizing: border-box;">
+            
+            <div style="background-color: #7732aa; padding: 30px 20px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); max-width: 850px; margin: 0 auto; box-sizing: border-box;">
+                <p style="color: #f7c702; font-family: 'Georgia', 'Garamond', serif; font-size: calc(1em + 0.15vw); line-height: 1.6; margin: 0; text-align: left;">
                     The coat of arms features three primary colors: gold, green and purple. Green, similarly to the flag, symbolizes the peace and prosperity along with purple being a sign of royalty and nobility while the gold is the richness. The golden crown on top is the wealth of Nizhnepartovsk with purple and green gems of peace and prosperity. The wreath has the same meaning as the green color. "GLORIAM AETERNAM HABEAT NIZHNEPARTOVSK" translates to "ETERNAL GLORY TO NIZHNEPARTOVSK" from Latin. The year 2025 on the white stripe is the year when Nizhnepartovsk was founded.
                 </p>
             </div>
         </div>
 
         <!-- SECTION: THE ANTHEM -->
-        <div style="text-align: center; margin-bottom: 50px;">
-            <h2 style="color: #7732aa; font-family: 'Georgia', 'Garamond', serif; font-size: 2em; margin-bottom: 20px;">The Anthem</h2>
+        <div style="text-align: center; margin-bottom: 50px; width: 100%;">
+            <h2 style="color: #7732aa; font-family: 'Georgia', 'Garamond', serif; font-size: calc(1.3em + 0.5vw); margin-bottom: 20px;">The Anthem</h2>
             
-            <!-- STYLISH ANTHEM MEDIA CARD LINK (Launches YouTube Video Flawlessly) -->
-            <a href="https://youtu.be/7v56zomCcGE" target="_blank" style="text-decoration: none; display: block; max-width: 650px; width: 100%; margin: 0 auto 20px auto; box-shadow: 0 5px 15px rgba(0,0,0,0.2); border-radius: 8px; overflow: hidden; position: relative;">
-                <!-- Flag Image serving as Video Backdrop Preview -->
-                <img src="flag.png" alt="Play Anthem" style="width: 100%; display: block; filter: brightness(0.65);">
-                <!-- Superimposed Play Button Icon Layer -->
-                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #f7c702; width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
-                    <div style="width: 0; height: 0; border-top: 15px solid transparent; border-bottom: 15px solid transparent; border-left: 25px solid #7732aa; margin-left: 6px;"></div>
+            <!-- Fluid layout for the YouTube redirection element -->
+            <a href="https://youtu.be/7v56zomCcGE" target="_blank" style="text-decoration: none; display: block; max-width: 650px; width: 100%; margin: 0 auto 20px auto; box-shadow: 0 5px 15px rgba(0,0,0,0.2); border-radius: 8px; overflow: hidden; position: relative; box-sizing: border-box;">
+                <img src="flag.png" alt="Play Anthem" style="width: 100%; height: auto; display: block; filter: brightness(0.65);">
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #f7c702; width: calc(50px + 4vw); height: calc(50px + 4vw); max-width: 80px; max-height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+                    <div style="width: 0; height: 0; border-top: calc(10px + 0.5vw) solid transparent; border-bottom: calc(10px + 0.5vw) solid transparent; border-left: calc(15px + 1vw) solid #7732aa; margin-left: calc(3px + 0.3vw); max-width: 25px;"></div>
                 </div>
             </a>
             
-            <div style="background-color: #7732aa; padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); max-width: 850px; margin: 0 auto;">
-                <p style="color: #f7c702; font-family: 'Georgia', 'Garamond', serif; font-size: 1.25em; line-height: 1.6; margin: 0;">
+            <div style="background-color: #7732aa; padding: 30px 20px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); max-width: 850px; margin: 0 auto; box-sizing: border-box;">
+                <p style="color: #f7c702; font-family: 'Georgia', 'Garamond', serif; font-size: calc(1em + 0.15vw); line-height: 1.6; margin: 0; text-align: left;">
                     Nizhnepartovsk uses Russian version of Ode to Joy by Ludwig van Beethoven because of the idea of the peaceful union of people that the lyrics are about.
                 </p>
             </div>
@@ -78,3 +83,4 @@
 
 </body>
 </html>
+
